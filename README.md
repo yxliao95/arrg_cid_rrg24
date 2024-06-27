@@ -86,11 +86,11 @@ it means the env is ready.
 
 ## Prepare datasets
 
-Download instruction: https://stanford-aimi.github.io/RRG24/
+Datasets download instruction: https://stanford-aimi.github.io/RRG24/
 
-Once you download the datasets, you can follow the script `./preprocessing/0_prepare_datasets.ipynb` to prepare the datasets for training
+Please also download our pre-constructed graph labels from this [link](https://drive.google.com/drive/folders/1dAXc8EpQ36g0cWtwP5qM0yj_KYHtLEIo?usp=sharing).
 
-Please also download the pre-constructed graph labels from: https://drive.google.com/drive/folders/1dAXc8EpQ36g0cWtwP5qM0yj_KYHtLEIo?usp=sharing. Label classes: (Present: 80, Absent: 23, Uncertain: 11)
+Once you download the datasets and the label files, you can follow the script `./preprocessing/0_prepare_datasets.ipynb` to prepare the datasets for training
 
 ## Model training
 
