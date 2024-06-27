@@ -1,10 +1,10 @@
 # ARRG prototype model
 
-## Labels
+Code for Paper "CID at RRG24: Attempting in a Conditionally Initiated Decoding of Radiology Report Generation with Clinical Entities"
 
-- present: 80
-- absent: 23
-- uncertain: 11
+A model for the Shared task on Large-Scale Radiology Report Generation @ BioNLP ACL'24
+
+More information can be found at https://stanford-aimi.github.io/RRG24/
 
 ## Install
 
@@ -27,9 +27,9 @@ In terminal, type:
 $ python
 >>> import vilmedic
 ```
-and you might see errors, which are discussed in the next section.
+and you might see errors. We will address them in the next section.
 
-If you see this message
+Once you see this message
 ```
 >>> timestamp WARNING: Language en package default expects mwt, which has been added
 ```
@@ -84,13 +84,13 @@ it means the env is ready.
   vilmedic 1.3.3 requires transformers==4.23.1, but you have transformers 4.41.1 which is incompatible.
   ```
 
-## Prepare dataset
+## Prepare datasets
 
 Download instruction: https://stanford-aimi.github.io/RRG24/
 
 Once you download the datasets, you can follow the script `./preprocessing/0_prepare_datasets.ipynb` to prepare the datasets for training
 
-Please also download the pre-constructed graph labels from: 
+Please also download the pre-constructed graph labels from: https://drive.google.com/drive/folders/1dAXc8EpQ36g0cWtwP5qM0yj_KYHtLEIo?usp=sharing. Label classes: (Present: 80, Absent: 23, Uncertain: 11)
 
 ## Model training
 
