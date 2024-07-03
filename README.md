@@ -6,6 +6,8 @@ A model for the Shared task on Large-Scale Radiology Report Generation @ BioNLP 
 
 More information can be found at https://stanford-aimi.github.io/RRG24/
 
+Our pre-trained models are available [here](https://drive.google.com/drive/folders/1dAXc8EpQ36g0cWtwP5qM0yj_KYHtLEIo?usp=drive_link)
+
 ## Install
 
 - conda create --name arrg_prototype python=3.8 -y
