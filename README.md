@@ -1,6 +1,6 @@
 # ARRG prototype model
 
-Code for Paper "CID at RRG24: Attempting in a Conditionally Initiated Decoding of Radiology Report Generation with Clinical Entities"
+Code for Paper "[CID at RRG24: Attempting in a Conditionally Initiated Decoding of Radiology Report Generation with Clinical Entities](https://aclanthology.org/2024.bionlp-1.49/)"
 
 A model for the Shared task on Large-Scale Radiology Report Generation @ BioNLP ACL'24
 
@@ -29,7 +29,7 @@ In terminal, type:
 $ python
 >>> import vilmedic
 ```
-and you might see errors. We will address them in the next section.
+and you might see errors. We will address them in the next part.
 
 Once you see this message
 ```
